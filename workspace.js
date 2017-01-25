@@ -139,7 +139,8 @@ cpdefine("inline:com-chilipeppr-workspace-tinyg", ["chilipeppr_ready"], function
 
             chilipeppr.load(
                 "#com-chilipeppr-widget-spjs-instance",
-                "http://raw.githubusercontent.com/chilipeppr/widget-spjs/master/auto-generated-widget.html",
+                //"http://raw.githubusercontent.com/chilipeppr/widget-spjs/master/auto-generated-widget.html",
+                "http://raw.githubusercontent.com/saulpila2000/widget-spjs/master/auto-generated-widget.html",
                 function() {
                     console.log("mycallback got called after loading spjs module");
                     cprequire(["inline:com-chilipeppr-widget-serialport"], function(spjs) {
